@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Damiao Castro</Authors>
+    <Company>fowet.com</Company>
+    <PackageProjectUrl>https://github.com/DamiaoCastro/AzureFunctionsExtensionSettings/wiki</PackageProjectUrl>
+    <Description>Application settings as bind attribute</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0-beta5" />
+  </ItemGroup>
+
+</Project>
