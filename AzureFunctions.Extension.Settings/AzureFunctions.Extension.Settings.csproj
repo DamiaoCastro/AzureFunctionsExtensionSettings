@@ -7,10 +7,13 @@
     <Company>fowet.com</Company>
     <PackageProjectUrl>https://github.com/DamiaoCastro/AzureFunctionsExtensionSettings/wiki</PackageProjectUrl>
     <Description>Application settings as bind attribute</Description>
+    <Version>3.0.0-beta8</Version>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+    <FileVersion>3.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0-beta5" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.0-beta8" />
   </ItemGroup>
 
 </Project>

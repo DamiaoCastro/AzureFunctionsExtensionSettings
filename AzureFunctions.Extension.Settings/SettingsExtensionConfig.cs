@@ -1,10 +1,13 @@
-﻿using Microsoft.Azure.WebJobs.Host.Bindings;
+﻿using Microsoft.Azure.WebJobs.Description;
+using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Azure.WebJobs.Host.Config;
 using System;
 using System.Threading.Tasks;
 
 namespace AzureFunctions.Extensions.Settings
 {
+
+    [Extension("Settings")]
     public class SettingsExtensionConfig : IExtensionConfigProvider
     {
         void IExtensionConfigProvider.Initialize(ExtensionConfigContext context)
